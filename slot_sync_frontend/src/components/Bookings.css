@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.bookings-container {
+    padding: 1rem;
+    min-height: 85vh;
+    background-color: #f1fbf9;
+}
+
+.bookings-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.booking-headers {
+    font-family: "Chakra Petch", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 0.75rem;
+    background-color: #b7e4dc;
+    color: #5b6f7e;
+    border: 1px solid #5b6f7e;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.booking-header1 {
+    width: 5%;
+    text-align: left;
+}
+
+.booking-header2 {
+    width: 20%;
+    text-align: center;
+}
+
+.booking-header3 {
+    width: 20%;
+    text-align: center;
+}
+
+.booking-header4 {
+    width: 20%;
+    text-align: center;
+}
+
+.booking-header5 {
+    width: 15%;
+    text-align: left;
+}
+
+.booking-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #5b6f7e;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+.booking-item:hover {
+    background-color: #e8f8f5;
+}
+
+.booking-image-cell {
+    width: 10%;
+    text-align: center;
+}
+
+.booking-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.booking-title {
+    width: 20%;
+}
+
+.booking-description {
+    width: 30%;
+}
+
+.booking-date {
+    width: 20%;
+}
+
+.booking-status {
+    width: 20%;
+    display: flex;
+    gap: 2rem;
+    align-items: end;
+    justify-content: center;
+}
+
+.status-button {
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: padding 0.3s ease;
+    font-family: "Poppins", sans-serif;
+}
+
+.status-button.confirmed {
+    background-color: #cc8275;
+    color: white;
+}
+
+.status-button.confirmed:hover {
+    padding: 0.5rem 2rem;
+}
+
+.status-button.complete {
+    background-color: #37a28e;
+    color: white;
+}
+
+.status-button.complete:hover {
+    padding: 0.5rem 2rem;
+}
+
+.status-button.cancelled {
+    background-color: #cc8275;
+    padding: 0.5rem 3.5rem;
+    color: white;
+}
+
+.status-button.completed {
+    background-color: #37a28e;
+    padding: 0.5rem 3.5rem;
+    color: white;
+}
+
+.status-button.confirmed-2 {
+    background-color: #5b6f7e;
+    padding: 0.5rem 3.5rem;
+    color: white;
+}

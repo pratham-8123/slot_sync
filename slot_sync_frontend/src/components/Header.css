@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    min-height: 7.5vh;
+    background-color: #f1fbf9;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.centered {
+    justify-content: center;
+    text-align: center;
+}
+
+
+.logo {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-family: "Economica", cursive;
+    font-size: 36px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.logo-text:hover .logo-text-palette {
+    color: #97d4c9;
+}
+
+.logo-text:hover .logo-text-sync {
+    color: #5b6f7e;
+}
+
+
+.logo-text-palette {
+    color: #5b6f7e;
+}
+
+.logo-text-sync {
+    color: #97d4c9;
+}
+
+.header-center {
+    display: flex;
+    gap: 80px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #5b6f7e;
+    transition: transform 0.3s ease; 
+}
+
+.nav-link:hover {
+    transform: scale(1.15);
+}
+
+.nav-link:hover {
+    color: #97d4c9;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-icon {
+    margin-top: 5px;
+    height: 30px;
+    width: 30px;
+    transition: transform 0.3s ease; 
+}
+
+.profile-bg {
+    fill: #f1fbf9;
+}
+
+.profile-outline {
+    stroke: #5b6f7e;
+}
+
+.profile-inner {
+    fill: #5b6f7e;
+}
+
+.profile-icon:hover {
+    transform: scale(1.15);
+}
+
+.profile-icon:hover .profile-bg {
+    fill: #97d4c9;
+}
+
+.logout-button {
+    padding: 2px 10px;
+    font-size: 12px;
+    color: #5b6f7e;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    background-color: #f1fbf9;
+    border: 2px solid #5b6f7e;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+}
+
+.logout-button:hover {
+    background-color: #97d4c9;
+    transform: scale(1.15);
+}

@@ -1,0 +1,11 @@
+Profile Icon: https://www.svgrepo.com/svg/495590/profile-circle
+PalleteSync Logo: https://www.freepik.com/free-vector/illustration-share-icon_2606502.htm#fromView=search&page=1&position=3&uuid=115ffe47-5973-4efd-8a10-6f8817cfb0e2
+PalleteSync Text: https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&display=swap
+Navigation Bar Text: https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap
+Logout Text: https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap
+Landing Page Heading Text: https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap
+Body Text: https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap
+Card Images: https://www.freepik.com/
+Card Rail Animation: https://codepen.io/kevinpowell/pen/BavVLra
+Landing Page Inspiration: https://dribbble.com/shots/22084995-Headers-Clonify
+Login Page Image: https://www.freepik.com/free-ai-image/digital-art-beautiful-mountains_152774423.htm#fromView=search&page=1&position=3&uuid=b9bde654-a453-4aba-bb68-39c5e26344b0

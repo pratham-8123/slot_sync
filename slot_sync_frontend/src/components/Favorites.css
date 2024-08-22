@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.favorites-container {
+  padding: 20px;
+  min-height: 85vh;
+  background-color: #f1fbf9;
+}
+
+.favorites-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  background-color: #f1fbf9;
+}
+
+.footer-space {
+  height: 7.5vh;
+  background-color: #f1fbf9;
+}
+
+.workshop-card-f {
+  padding: 20px;
+  border: 1px solid #5b6f7e;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+
+.workshop-buttons-f {
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 15px;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.workshop-buttons-f:hover {
+    background-color: #fae9e6;
+}
+
+.remove-favorite-icon {
+  width: 30px;
+  height: 30px;
+  transition: height 0.2s, width 0.2s;
+}
+
+.no-results {
+  grid-column: span 4;
+  text-align: center;
+  color: #555;
+  font-size: 16px;
+}

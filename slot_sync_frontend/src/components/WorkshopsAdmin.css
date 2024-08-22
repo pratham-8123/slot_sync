@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.admin-container {
+  padding: 20px;
+  min-height: 85vh;
+  background-color: #f1fbf9;
+}
+
+.admin-search-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.admin-search-input {
+  border: 1px solid #5b6f7e;
+  flex-grow: 1;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+  box-shadow: 0 0px 0px;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #ffffff;
+}
+
+.create-button {
+  width: 20vw;
+  margin-left: 20px;
+  margin-top:10px;
+  font-size: 1.0rem;
+  font-family: "Poppins", sans-serif;
+  padding: 0.5vh 2vw;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #f1fbf9;
+  border: 0;
+  background-color: #37a28e;
+  transform-origin: center;
+  transition: background-color 0.3s;
+}
+
+.create-button:hover {
+  background-color: #68c4b3;
+}
+
+.admin-workshops-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  background-color: #f1fbf9;
+}
+
+.admin-workshop-card {
+  padding: 20px;
+  border: 1px solid #5b6f7e;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+
+.admin-workshop-buttons {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 15px;
+  align-items: center;
+}
+
+.edit-button {
+    font-size: 1.0rem;
+    font-family: "Poppins", sans-serif;
+    padding: 0.5vh 5vw;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #f1fbf9;
+    border: 0;
+    background-color: #cc8275;
+    transform-origin: center;
+    transition: padding 0.3s;
+  }
+  
+  .edit-button:hover {
+    padding: 0.5vh 10vw;
+  }
+  
+  .delete-icon {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    transition: height 0.2s, width 0.2s;
+  }
+  
+  .delete-icon:hover {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .admin-no-results {
+    grid-column: span 3;
+    text-align: center;
+    color: #555;
+    font-size: 16px;
+  }

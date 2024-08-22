@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: rgba(241, 251, 249, 1);
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.modal-buttons {
+  margin-top: 1rem;
+}
+
+.modal-buttons button {
+  margin: 0 10px;
+}
+
+.modal-button {
+  font-size: 1.0rem;
+  font-family: "Poppins", sans-serif;
+  padding: 0.5vh 1vw;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #cc8275;
+  background-color: #f1fbf9;
+  border: 0;
+  border: 2px solid #cc8275;
+  transform-origin: center;
+}
+
+.modal-button.sure {
+  color: #cc8275;
+}
+
+.modal-button.sure:hover {
+  color: #f1fbf9;
+    background-color: #cc8275;
+}
+
+.modal-button.cancel {
+  color: #cc8275;
+}
+
+.modal-button.cancel:hover {
+  color: #f1fbf9;
+    background-color: #cc8275;
+}
+
+.modal-button.submit {
+  color: #cc8275;
+}
+
+.modal-button.submit:hover {
+  color: #f1fbf9;
+    background-color: #cc8275;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+}
+
+.star {
+  font-size: 2rem;
+  cursor: pointer;
+  color: #e4d8d5;
+  transition: color 0.3s ease;
+}
+
+.star.filled {
+  color: #cc8275;
+}
